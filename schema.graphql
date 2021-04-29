@@ -1,0 +1,12 @@
+schema {
+    query: Query
+}
+
+type Report {
+    title:       String!
+    description: String!
+}
+
+type Query {
+    reports: [Report!]!
+}
